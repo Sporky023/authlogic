@@ -64,6 +64,7 @@ module Authlogic
 
         private
           def db_setup?
+            column_names
             begin
               column_names
               true
